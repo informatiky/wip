@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'chaparral_prolight_caption';
+    src: url('chaparral_pro_light_caption-webfont.woff2') format('woff2'),
+         url('chaparral_pro_light_caption-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'avergentregular';
+    src: url('avergent-regular-personal-use-webfont.woff2') format('woff2'),
+         url('avergent-regular-personal-use-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'romannn';
+    src: url('Roman.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+    position: relative;
+    margin: 100px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'chaparral_prolight_caption';
+}
+img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+p {
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 19px;
+    font-family: 'avergentregular';
+}
